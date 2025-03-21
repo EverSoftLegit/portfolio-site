@@ -10,3 +10,13 @@ toggleButton.addEventListener('click', () => {
     toggleButton.textContent = '🌙 Dark Mode';
   }
 });
+
+// Hamburger menu toggle
+const hamburger = document.getElementById('hamburger-toggle');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
+
